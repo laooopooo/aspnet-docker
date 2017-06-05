@@ -1,4 +1,4 @@
-FROM microsoft/iis:4.6.2
+FROM microsoft/iis:4.7
 
 RUN powershell -Command Add-WindowsFeature NET-Framework-45-ASPNET; \
     powershell -Command Add-WindowsFeature Web-Asp-Net45; \
